@@ -20,7 +20,8 @@ Compared with DSVAE, S2CD makes the following improvements:
 
 ### Unseen2unseen
 
-| Male2Male |
+**Male2Male**:
+
 | Models | Example 1 | Example 2 |
 |  ----  | ----  | ----  |
 | Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
