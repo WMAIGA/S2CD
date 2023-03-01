@@ -63,3 +63,5 @@ Compared with DSVAE, S2CD makes the following improvements:
 | S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample1/tswoTwoP_016.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample2/tswoTwoP_023.wav"></audio> |
 | S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample1/tswoTwP_016.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample2/tswoTwP_023.wav"></audio> |
 | S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample1/ts_016.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample2/ts_023.wav"></audio> |
+
+~[](demo_samples/u2u/female2female/sample2/ts_023.wav) 
