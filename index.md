@@ -20,6 +20,16 @@ Compared with DSVAE, S2CD makes the following improvements:
 
 ### Unseen2unseen
 
+| Male2Male |
+| Models | Example 1 | Example 2 |
+|  ----  | ----  | ----  |
+| Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
+| Target | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
+| DSVAE | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
+| S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
+| S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
+| S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/source/F_CDF008_XT_097_023-02.wav"></audio> |
+
 The following audio samples are from the target female and male singers.
 
 | Target | Samples |
