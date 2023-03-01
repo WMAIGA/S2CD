@@ -20,6 +20,17 @@ Compared with DSVAE, S2CD makes the following improvements:
 
 ### Unseen2unseen
 
+**Female2Male**:
+
+| Models | Example 1 | Example 2 |
+|  ----  | ----  | ----  |
+| Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample1/src_001.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample2/src_003.wav"></audio> |
+| Target | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample1/tgt_001.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample2/tgt_003.wav"></audio> |
+| DSVAE | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample1/ds_001.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample2/ds_003.wav"></audio> |
+| S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample1/tswoTwoP_001.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample2/tswoTwoP_003.wav"></audio> |
+| S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample1/tswoTwP_001.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample2/tswoTwP_003.wav"></audio> |
+| S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample1/ts_001.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2male/sample2/ts_003.wav"></audio> |
+
 **Male2Male**:
 
 | Models | Example 1 | Example 2 |
