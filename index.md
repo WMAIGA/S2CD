@@ -2,13 +2,13 @@
 title: "S2CD: Self-heuristic Speaker Content Disentanglement for Any-to-Any Voice Conversion"
 ---
 
-# Abstract
+## Abstract
 
 In this paper, we propose a **S**elf-heuristic **S**peaker **C**ontent **D**isentanglement (S2CD) model for *any_to_any* voice conversion without using any external resources, e.g., speaker labels or vectors, linguistic models, and transcriptions. S2CD is built on the disentanglement sequential variational autoencoder (DSVAE), but improves DSVAE structure at the model architecture level from three perspectives. Specifically, we develop different structures for speaker and content encoders based on their underlying static/dynamic property. We further propose a generative graph, modelled by S2CD, so as to make S2CD well mimic the multi-speaker speech generation process. Finally, we propose a self-heuristic way to introduce bias to the prior modelling. Extensive empirical evaluations show the effectiveness of S2CD for *any_to_any* voice conversion.
 
 ![](2.png)
 
-# Key Points of S2CD
+## Key Points of S2CD
 
 Compared with DSVAE, S2CD makes the following improvements:
 
@@ -16,7 +16,9 @@ Compared with DSVAE, S2CD makes the following improvements:
 - Positive pair-wise training based on a multi-speaker speech generation graph
 - self-heuristic prior modelling
 
-## Target Singers
+## Voice Conversion Demon samples
+
+### Unseen2unseen
 
 The following audio samples are from the target female and male singers.
 
