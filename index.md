@@ -64,4 +64,49 @@ Compared with DSVAE, S2CD makes the following improvements:
 | S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample1/tswoTwP_016.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample2/tswoTwP_023.wav"></audio> |
 | S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample1/ts_016.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/u2u/female2female/sample2/ts_023.wav"></audio> |
 
-~[](demo_samples/u2u/female2female/sample2/ts_023.wav) 
+### Seen2seen
+
+**Female2Male**:
+
+| Models | Example 1 | Example 2 |
+|  ----  | ----  | ----  |
+| Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample1/src_002.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample2/src_010.wav"></audio> |
+| Target | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample1/tgt_002.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample2/tgt_010.wav"></audio> |
+| DSVAE | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample1/ds_002.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample2/ds_010.wav"></audio> |
+| S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample1/tswoTwoP_002.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample2/tswoTwoP_010.wav"></audio> |
+| S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample1/tswoTwP_002.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample2/tswoTwP_010.wav"></audio> |
+| S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample1/ts_002.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2male/sample2/ts_010.wav"></audio> |
+
+**Male2female**:
+
+| Models | Example 1 | Example 2 |
+|  ----  | ----  | ----  |
+| Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample1/src_015.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample2/src_029.wav"></audio> |
+| Target | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample1/tgt_015.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample2/tgt_029.wav"></audio> |
+| DSVAE | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample1/ds_015.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample2/ds_029.wav"></audio> |
+| S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample1/tswoTwoP_015.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample2/tswoTwoP_029.wav"></audio> |
+| S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample1/tswoTwP_015.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample2/tswoTwP_029.wav"></audio> |
+| S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample1/ts_015.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2female/sample2/ts_029.wav"></audio> |
+
+**Male2Male**:
+
+| Models | Example 1 | Example 2 |
+|  ----  | ----  | ----  |
+| Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample1/src_009.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample2/src_013.wav"></audio> |
+| Target | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample1/tgt_009.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample2/tgt_013.wav"></audio> |
+| DSVAE | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample1/ds_009.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample2/ds_013.wav"></audio> |
+| S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample1/tswoTwoP_009.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample2/tswoTwoP_013.wav"></audio> |
+| S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample1/tswoTwP_009.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample2/tswoTwP_013.wav"></audio> |
+| S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample1/ts_009.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/male2male/sample2/ts_013.wav"></audio> |
+
+**Female2Female**:
+
+| Models | Example 1 | Example 2 |
+|  ----  | ----  | ----  |
+| Source | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample1/src_018.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample2/src_027.wav"></audio> |
+| Target | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample1/tgt_018.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample2/tgt_027.wav"></audio> |
+| DSVAE | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample1/ds_018.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample2/ds_027.wav"></audio> |
+| S2CD_woT&P | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample1/tswoTwoP_018.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample2/tswoTwoP_027.wav"></audio> |
+| S2CD_woT | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample1/tswoTwP_018.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample2/tswoTwP_027.wav"></audio> |
+| S2CD | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample1/ts_018.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demo_samples/s2s/female2female/sample2/ts_027.wav"></audio> |
+
