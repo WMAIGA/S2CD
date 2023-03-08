@@ -16,7 +16,7 @@ Compared with DSVAE, S2CD makes the following improvements:
 - Positive pair-wise training based on a multi-speaker speech generation graph
 - self-heuristic prior modelling
 
-## Voice Conversion Demon samples
+## Voice Conversion Demo Samples
 
 ### Unseen2unseen
 
